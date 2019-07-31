@@ -1,0 +1,28 @@
+[debug] [2019-07-30T16:29:17.108Z] ----------------------------------------------------------------------
+[debug] [2019-07-30T16:29:17.111Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Baji Shaik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-07-30T16:29:17.112Z] CLI Version:   6.8.0
+[debug] [2019-07-30T16:29:17.112Z] Platform:      win32
+[debug] [2019-07-30T16:29:17.112Z] Node Version:  v10.15.3
+[debug] [2019-07-30T16:29:17.113Z] Time:          Tue Jul 30 2019 21:59:17 GMT+0530 (India Standard Time)
+[debug] [2019-07-30T16:29:17.113Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-30T16:29:17.129Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-30T16:29:17.130Z] > authorizing via signed-in user
+[debug] [2019-07-30T16:29:17.130Z] [iam] checking project familytime-ae6cf for permissions ["firebase.projects.get"]
+[debug] [2019-07-30T16:29:17.134Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/familytime-ae6cf:testIamPermissions  
+
+[debug] [2019-07-30T16:29:18.920Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-30T16:29:18.925Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/familytime-ae6cf  
+ 
+[debug] [2019-07-30T16:29:20.595Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Own Projects\Web\Family Time'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-30T16:29:21.787Z] Fetching environment
+[debug] [2019-07-30T16:29:21.791Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/175358857855:getServerAppConfig  
+ 
+[debug] [2019-07-30T16:29:22.840Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-30T16:29:22.841Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-30T16:29:25.403Z] Parsing function triggers
+[info] +  functions: familyTimeFullfillment: http://localhost:5000/familytime-ae6cf/us-central1/familyTimeFullfillment
